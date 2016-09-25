@@ -1,0 +1,35 @@
+Pseudocode
+Module main ()
+	//Declare local variables 
+		Declare String colorRed
+		Declare string colorBlue
+		Declare String colorYellow
+	//Input
+Call color1 “Welcome to the Primary Color Mixer! Enter your first color:”
+Call color2 “Enter your second color: “
+End Module
+Module color_mix ()
+// If/Elif/Else
+If color1 == colorRed and color2 == colorBlue
+   Display “Your color mixture is purple.”
+End If
+Elif color1 == colorBlue and color2 == colorRed
+   Display “Your color mixture is purple.”
+End if
+Elif color1 == colorRed and color2 == colorYellow
+   Display “Your color mixture is orange.”
+End if
+Elif color1 == colorYellow and color2 == colorRed
+   Display “Your color mixture is orange.”
+End if
+Elif color1 == colorBlue and color2 == colorYellow
+   Display “Your color mixture is green.”
+End if
+Elif color1 == colorYellow and color2 == colorBlue
+   Display “Your color mixture is green.”
+End if
+
+Else
+   Display “N/A”
+End if
+End Module 
