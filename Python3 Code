@@ -6,9 +6,9 @@ def main():
 
 
 # Variables
-colorRed = "red" and "Red"
-colorBlue = "blue" and "Blue"
-colorYellow = "yellow" and "Yellow"
+colorRed = "red" 
+colorBlue = "blue"
+colorYellow = "yellow"
 
 # color inputs
 color1 = input("\nWelcome to the Primary Color Mixer! \nEnter your first color: ")
