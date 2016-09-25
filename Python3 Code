@@ -1,0 +1,38 @@
+# Homework Assignment 4 - Color Mixer by Kari Tant
+
+
+def main():
+    """This is the main Module to call from"""
+
+
+# Variables
+colorRed = "red" and "Red"
+colorBlue = "blue" and "Blue"
+colorYellow = "yellow" and "Yellow"
+
+# color inputs
+color1 = input("\nWelcome to the Primary Color Mixer! \nEnter your first color: ")
+color2 = input("Enter your second color: ")
+
+main()
+
+
+def color_mix():
+    """This is colorMix Module that defins my IF/ElIF?ELSE statment"""
+
+
+if color1 == colorRed and color2 == colorBlue:
+    print("\nYour color mixture is purple.")
+elif color1 == colorBlue and color2 == colorRed:
+    print("\nYour color mixture is purple.")
+elif color1 == colorRed and color2 == colorYellow:
+    print("\nYour color mixture is orange.")
+elif color1 == colorYellow and color2 == colorRed:
+    print("\nYour color mixture is orange.")
+elif color1 == colorBlue and color2 == colorYellow:
+    print("\nYour color mixture is green.")
+elif color1 == colorYellow and color2 == colorBlue:
+    print("\nYour color mixture is green.")
+else:
+    print("\nN/A")
+color_mix()
